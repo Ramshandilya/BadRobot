@@ -1,0 +1,6 @@
+framework module Pods_BadRobot_iOS {
+  umbrella header "Pods-BadRobot-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

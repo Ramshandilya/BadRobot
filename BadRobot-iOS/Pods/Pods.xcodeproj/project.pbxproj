@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B5A38E86D13800605B4DFF3E0D5F6B /* WITUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C75EED6C1EA6C2ACA8D08CD05B92F6 /* WITUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CEA47C123A3307EDF6769911D09814 /* WITCvad.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED144DCAA1B3ABC61DC683C2F09325 /* WITCvad.m */; };
+		11D395DE30F63D605E2E8C783C22D6F3 /* WITRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1099DD0736061552DF62CD2E1D22BAD /* WITRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125E6CF5878F9021FE4745D0934CCF2F /* WITVadSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3EF549154C6CE90C2A906B5213718D /* WITVadSimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AF9AE679C96F0F98503AB7809AA7B8 /* Pods-BadRobot-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448A5C64D177F1DFDC2D7952A0858C30 /* Pods-BadRobot-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D4D56F07698CB7D278FF13255649F9E /* WITMicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C5689F72B8D7B9256F3B6B9FE69B2FCF /* WITMicButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		246F623EA312B3806665AFFB99E4AA00 /* WITVadConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7D2DB8CA6EF53AC32B3AB622C8F987 /* WITVadConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA1FEF659ACB06193EED9004C960CA3 /* WITVadSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBFBA78D3FFCCCBEB1A6B502A952F87 /* WITVadSimple.m */; };
+		34E0EAEAB85C5A17FF40E7F69BDED82A /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A29E6824CA172E75DFDD19E80AC34C /* microphone.png */; };
+		3B39D0F3DBD11B7794AB6FBE81AC19FA /* WITState.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DC5777A4442CCAC9001534A91C2EDA /* WITState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442BD6CAED2BD1460B9CD3BB3ABB2B80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF00B88A1528513F686B0A41F28C32 /* QuartzCore.framework */; };
+		519ABC096832011DCE63F8348AF3692F /* Wit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F40C220024FBA5D2335B5C79D1E7633 /* Wit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4C46A90C0354F9AFEFE4361C306D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6916DAE177398E3A934617022F43315 /* Foundation.framework */; };
+		6A51BB701DBCBA187999AA81B9C1B55B /* WITUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8D540CCFDCD08FBAD8A4DF0B1B0E6 /* WITUploader.m */; };
+		6A6E84A4EF15B732E4C748EF87DB6270 /* WITVad.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF562AD259C36F2E287F833407F028A /* WITVad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7061AD596256D2BDDBD7EBC8D2F6F18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6916DAE177398E3A934617022F43315 /* Foundation.framework */; };
+		7673C1CBCF8E592F391554BC60EB2EFF /* WITVadTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E8769C0163D454C385FE87C14B26E /* WITVadTracker.m */; };
+		7C7D0F2A4ED1106542B3666FC73B42DD /* WITVadTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC83F501E77E973065EB4A68DCC04DF /* WITVadTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948B0508C02FD2EDD14970E61E509C15 /* Pods-BadRobot-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800CEDF49DBADD343D88049753E61D0 /* Pods-BadRobot-iOS-dummy.m */; };
+		95460E743484AA83A4C6AB995280940B /* WITCircleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B0949E0152EAA37AC8C8E59669F187 /* WITCircleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95822B2C7264D3BF635B88578141CC8E /* WITState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E536CEC1A5A5C2646C62CB707CE40 /* WITState.m */; };
+		987C8B9E38AEE477E936AE7334A0942D /* WITMicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057A63B34FFA75E39C0D31F975021FB /* WITMicButton.m */; };
+		9C15012B01AD341972422DBD5B163885 /* Wit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08F65A25A0E3747127B63CB4BB72F /* Wit-dummy.m */; };
+		9DAE33944530F9FBF22917D4A0F09C84 /* WitPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B9860385E48F4CFD042E795F13F5D41E /* WitPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE489F349939DD5DB823D147903EAA2 /* RecordingSessionStarter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF2FE621436FAEFD6FA1BA15AE1FC39 /* RecordingSessionStarter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A666939C9DE72E9DAAEC27DD84C34395 /* WITCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BFA96E6DD1A430D5A585559C326D7 /* WITCircleLayer.m */; };
+		A741CEF2976E0AD432FC27A5F47881A9 /* Wit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DAD7F69712AD9C154CC3DC1FC229B1 /* Wit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABBE08907C7EDB3A63E209B8AC62BBA8 /* Wit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1477106DAE4C85D454A4E4362F346E /* Wit.m */; };
+		AFBB8CDB61CD9B5B78E2B143C026F252 /* WITCvad.h in Headers */ = {isa = PBXBuildFile; fileRef = F45E82E683E828054689C03A2B24B3A5 /* WITCvad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31A3BB3E52CD0216EB92532E7AAB703 /* WITRecordingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CC52CA53FEA5DD3929448A3E83BF4 /* WITRecordingSession.m */; };
+		BD1310842C1CBC345FFCAF202E6E6AF4 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C17E2DF36B7E3D4674CB5FDAE157D5 /* util.m */; };
+		C5CA996A15C28F50EBE45D348CBC2EA3 /* WITRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49235192E1FFDE214317243BCE354FBD /* WITRecorder.m */; };
+		CE0BDBE1B2B8AB1465D2E21C6755FE92 /* WITContextSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F949E6E8EA80BB03012FBDF4D1827E32 /* WITContextSetter.m */; };
+		D56AA5B88720AC1C1F6FE8ADA8C04A82 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA244BB47A8CA92B9BE3802EE71F960 /* AudioToolbox.framework */; };
+		D8EBF4B520BB85438CA64830AA21DF5E /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = F44901EBDF7CFDEA7F822F0109CED0C9 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0CA2504A4C4FA8271DAE7F322BD28A /* WITCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADCCA73E7BB59E6599532B14C4B4747 /* WITCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD25ED8B69172A80BB0FF94E14D34689 /* WITContextSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD543CC6272A4712926B2D8607874AF /* WITContextSetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47830BBC6560D76AB9DE9C65ADB04A5 /* WITVad.m in Sources */ = {isa = PBXBuildFile; fileRef = 249E06BB9D03D404653513A67E68E1FE /* WITVad.m */; };
+		FC4B8E9F49B6B18238EDE8FA11C48DCF /* WITRecordingSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1633BAE9C7B42BC57B0DBF2036892E18 /* WITRecordingSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEACBECF60D1875FD0983F013862E5E /* WITCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6D005E411D83ED50997972B0E440C9 /* WITCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C090DBC7A91D49275C8BBE4251EEF176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C58B5273CF6E5675A96AF63BD69EE47;
+			remoteInfo = Wit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0800CEDF49DBADD343D88049753E61D0 /* Pods-BadRobot-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadRobot-iOS-dummy.m"; sourceTree = "<group>"; };
+		0D3EF549154C6CE90C2A906B5213718D /* WITVadSimple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITVadSimple.h; path = Wit/WITVadSimple.h; sourceTree = "<group>"; };
+		0EF562AD259C36F2E287F833407F028A /* WITVad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITVad.h; path = Wit/WITVad.h; sourceTree = "<group>"; };
+		14882A5AB8201853502A31F9308A95CB /* Pods_BadRobot_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadRobot_iOS.framework; path = "Pods-BadRobot-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1633BAE9C7B42BC57B0DBF2036892E18 /* WITRecordingSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITRecordingSession.h; path = Wit/WITRecordingSession.h; sourceTree = "<group>"; };
+		174B5A71BAD6BC74ED85ED11BBA003CD /* Pods-BadRobot-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadRobot-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		181E8769C0163D454C385FE87C14B26E /* WITVadTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITVadTracker.m; path = Wit/WITVadTracker.m; sourceTree = "<group>"; };
+		1B3B9538081CCE708214F8127F35E0E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE5F60C57AAFF1E322394DABAF44549 /* Wit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Wit.xcconfig; sourceTree = "<group>"; };
+		1F40C220024FBA5D2335B5C79D1E7633 /* Wit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wit.h; path = Wit/Wit.h; sourceTree = "<group>"; };
+		1F7D2DB8CA6EF53AC32B3AB622C8F987 /* WITVadConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITVadConfig.h; path = Wit/WITVadConfig.h; sourceTree = "<group>"; };
+		249E06BB9D03D404653513A67E68E1FE /* WITVad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITVad.m; path = Wit/WITVad.m; sourceTree = "<group>"; };
+		28A29E6824CA172E75DFDD19E80AC34C /* microphone.png */ = {isa = PBXFileReference; includeInIndex = 1; name = microphone.png; path = WitResources/Images/microphone.png; sourceTree = "<group>"; };
+		2B32ADE3245236FF4C2AD2E73CE190BF /* Wit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wit.framework; path = Wit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF2FE621436FAEFD6FA1BA15AE1FC39 /* RecordingSessionStarter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordingSessionStarter.h; path = Wit/RecordingSessionStarter.h; sourceTree = "<group>"; };
+		3582369A78AE5FB864BBF63846744BA8 /* Pods-BadRobot-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadRobot-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		448A5C64D177F1DFDC2D7952A0858C30 /* Pods-BadRobot-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadRobot-iOS-umbrella.h"; sourceTree = "<group>"; };
+		49235192E1FFDE214317243BCE354FBD /* WITRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITRecorder.m; path = Wit/WITRecorder.m; sourceTree = "<group>"; };
+		4ADCCA73E7BB59E6599532B14C4B4747 /* WITCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITCircleView.h; path = Wit/WITCircleView.h; sourceTree = "<group>"; };
+		4C1E536CEC1A5A5C2646C62CB707CE40 /* WITState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITState.m; path = Wit/WITState.m; sourceTree = "<group>"; };
+		4EF551EA551C22CFD5D4666E8D8A7C51 /* Wit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Wit.modulemap; sourceTree = "<group>"; };
+		50DC5777A4442CCAC9001534A91C2EDA /* WITState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITState.h; path = Wit/WITState.h; sourceTree = "<group>"; };
+		5AD543CC6272A4712926B2D8607874AF /* WITContextSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITContextSetter.h; path = Wit/WITContextSetter.h; sourceTree = "<group>"; };
+		5B1477106DAE4C85D454A4E4362F346E /* Wit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Wit.m; path = Wit/Wit.m; sourceTree = "<group>"; };
+		68B0949E0152EAA37AC8C8E59669F187 /* WITCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITCircleLayer.h; path = Wit/WITCircleLayer.h; sourceTree = "<group>"; };
+		79C75EED6C1EA6C2ACA8D08CD05B92F6 /* WITUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITUploader.h; path = Wit/WITUploader.h; sourceTree = "<group>"; };
+		7AD08F65A25A0E3747127B63CB4BB72F /* Wit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Wit-dummy.m"; sourceTree = "<group>"; };
+		7FDF00B88A1528513F686B0A41F28C32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		81551F071BE151BF1C57B227D12A12FA /* Pods-BadRobot-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BadRobot-iOS.modulemap"; sourceTree = "<group>"; };
+		834B826D100096F69C8CBB32CF262433 /* Pods-BadRobot-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadRobot-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8F9BFA96E6DD1A430D5A585559C326D7 /* WITCircleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITCircleLayer.m; path = Wit/WITCircleLayer.m; sourceTree = "<group>"; };
+		9057A63B34FFA75E39C0D31F975021FB /* WITMicButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITMicButton.m; path = Wit/WITMicButton.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1ED144DCAA1B3ABC61DC683C2F09325 /* WITCvad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITCvad.m; path = Wit/WITCvad.m; sourceTree = "<group>"; };
+		ACDF5B8F3F56E2F7FA77C8935D54C635 /* Wit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wit-prefix.pch"; sourceTree = "<group>"; };
+		B6916DAE177398E3A934617022F43315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B9860385E48F4CFD042E795F13F5D41E /* WitPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WitPrivate.h; path = Wit/WitPrivate.h; sourceTree = "<group>"; };
+		BE3CC52CA53FEA5DD3929448A3E83BF4 /* WITRecordingSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITRecordingSession.m; path = Wit/WITRecordingSession.m; sourceTree = "<group>"; };
+		C1C17E2DF36B7E3D4674CB5FDAE157D5 /* util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = util.m; path = Wit/util.m; sourceTree = "<group>"; };
+		C5689F72B8D7B9256F3B6B9FE69B2FCF /* WITMicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITMicButton.h; path = Wit/WITMicButton.h; sourceTree = "<group>"; };
+		CDBFBA78D3FFCCCBEB1A6B502A952F87 /* WITVadSimple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITVadSimple.m; path = Wit/WITVadSimple.m; sourceTree = "<group>"; };
+		CF6D005E411D83ED50997972B0E440C9 /* WITCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITCircleView.m; path = Wit/WITCircleView.m; sourceTree = "<group>"; };
+		D1099DD0736061552DF62CD2E1D22BAD /* WITRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITRecorder.h; path = Wit/WITRecorder.h; sourceTree = "<group>"; };
+		D2DAD7F69712AD9C154CC3DC1FC229B1 /* Wit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wit-umbrella.h"; sourceTree = "<group>"; };
+		E1B8D540CCFDCD08FBAD8A4DF0B1B0E6 /* WITUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITUploader.m; path = Wit/WITUploader.m; sourceTree = "<group>"; };
+		E61C83A16F3F32E5B8B61A83462272C9 /* Pods-BadRobot-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadRobot-iOS-resources.sh"; sourceTree = "<group>"; };
+		EAA244BB47A8CA92B9BE3802EE71F960 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		EBC83F501E77E973065EB4A68DCC04DF /* WITVadTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITVadTracker.h; path = Wit/WITVadTracker.h; sourceTree = "<group>"; };
+		EE6F0CADB96224A95D3F3426DDC01F1D /* Pods-BadRobot-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadRobot-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F44901EBDF7CFDEA7F822F0109CED0C9 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = Wit/util.h; sourceTree = "<group>"; };
+		F45E82E683E828054689C03A2B24B3A5 /* WITCvad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WITCvad.h; path = Wit/WITCvad.h; sourceTree = "<group>"; };
+		F9135EE3F4FB3D2280D92C1800ED1BF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F949E6E8EA80BB03012FBDF4D1827E32 /* WITContextSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WITContextSetter.m; path = Wit/WITContextSetter.m; sourceTree = "<group>"; };
+		FEAE54FB1D2ACDB441F13B5E8DC97832 /* Pods-BadRobot-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadRobot-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEC86595B2A0D739E0481FA912202F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56AA5B88720AC1C1F6FE8ADA8C04A82 /* AudioToolbox.framework in Frameworks */,
+				7061AD596256D2BDDBD7EBC8D2F6F18B /* Foundation.framework in Frameworks */,
+				442BD6CAED2BD1460B9CD3BB3ABB2B80 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21159717B9F7C4E42CE73933FFFE9E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4C46A90C0354F9AFEFE4361C306D88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104BD7A4D75D7994A8EFD342EDE1ED3C /* Wit */ = {
+			isa = PBXGroup;
+			children = (
+				2CF2FE621436FAEFD6FA1BA15AE1FC39 /* RecordingSessionStarter.h */,
+				F44901EBDF7CFDEA7F822F0109CED0C9 /* util.h */,
+				C1C17E2DF36B7E3D4674CB5FDAE157D5 /* util.m */,
+				1F40C220024FBA5D2335B5C79D1E7633 /* Wit.h */,
+				5B1477106DAE4C85D454A4E4362F346E /* Wit.m */,
+				68B0949E0152EAA37AC8C8E59669F187 /* WITCircleLayer.h */,
+				8F9BFA96E6DD1A430D5A585559C326D7 /* WITCircleLayer.m */,
+				4ADCCA73E7BB59E6599532B14C4B4747 /* WITCircleView.h */,
+				CF6D005E411D83ED50997972B0E440C9 /* WITCircleView.m */,
+				5AD543CC6272A4712926B2D8607874AF /* WITContextSetter.h */,
+				F949E6E8EA80BB03012FBDF4D1827E32 /* WITContextSetter.m */,
+				F45E82E683E828054689C03A2B24B3A5 /* WITCvad.h */,
+				A1ED144DCAA1B3ABC61DC683C2F09325 /* WITCvad.m */,
+				C5689F72B8D7B9256F3B6B9FE69B2FCF /* WITMicButton.h */,
+				9057A63B34FFA75E39C0D31F975021FB /* WITMicButton.m */,
+				B9860385E48F4CFD042E795F13F5D41E /* WitPrivate.h */,
+				D1099DD0736061552DF62CD2E1D22BAD /* WITRecorder.h */,
+				49235192E1FFDE214317243BCE354FBD /* WITRecorder.m */,
+				1633BAE9C7B42BC57B0DBF2036892E18 /* WITRecordingSession.h */,
+				BE3CC52CA53FEA5DD3929448A3E83BF4 /* WITRecordingSession.m */,
+				50DC5777A4442CCAC9001534A91C2EDA /* WITState.h */,
+				4C1E536CEC1A5A5C2646C62CB707CE40 /* WITState.m */,
+				79C75EED6C1EA6C2ACA8D08CD05B92F6 /* WITUploader.h */,
+				E1B8D540CCFDCD08FBAD8A4DF0B1B0E6 /* WITUploader.m */,
+				0EF562AD259C36F2E287F833407F028A /* WITVad.h */,
+				249E06BB9D03D404653513A67E68E1FE /* WITVad.m */,
+				1F7D2DB8CA6EF53AC32B3AB622C8F987 /* WITVadConfig.h */,
+				0D3EF549154C6CE90C2A906B5213718D /* WITVadSimple.h */,
+				CDBFBA78D3FFCCCBEB1A6B502A952F87 /* WITVadSimple.m */,
+				EBC83F501E77E973065EB4A68DCC04DF /* WITVadTracker.h */,
+				181E8769C0163D454C385FE87C14B26E /* WITVadTracker.m */,
+				2608B1AB9B19C70C696777F7E3F6E336 /* Resources */,
+				3EC0922BFBFEACFD1B31A0B736CCB593 /* Support Files */,
+			);
+			name = Wit;
+			path = Wit;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CB8233E60B26268E2D99B437A6A0F4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CB8233E60B26268E2D99B437A6A0F4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAA244BB47A8CA92B9BE3802EE71F960 /* AudioToolbox.framework */,
+				B6916DAE177398E3A934617022F43315 /* Foundation.framework */,
+				7FDF00B88A1528513F686B0A41F28C32 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2608B1AB9B19C70C696777F7E3F6E336 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28A29E6824CA172E75DFDD19E80AC34C /* microphone.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EC0922BFBFEACFD1B31A0B736CCB593 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9135EE3F4FB3D2280D92C1800ED1BF6 /* Info.plist */,
+				4EF551EA551C22CFD5D4666E8D8A7C51 /* Wit.modulemap */,
+				1DE5F60C57AAFF1E322394DABAF44549 /* Wit.xcconfig */,
+				7AD08F65A25A0E3747127B63CB4BB72F /* Wit-dummy.m */,
+				ACDF5B8F3F56E2F7FA77C8935D54C635 /* Wit-prefix.pch */,
+				D2DAD7F69712AD9C154CC3DC1FC229B1 /* Wit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Wit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				DEA79141FBAFD4CC0E2835E8D10FB8D1 /* Pods */,
+				F63478160111F5B14AAAA6B77A482E01 /* Products */,
+				EC416AEC6A1A818996243B6A0A321400 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2CB6EB4C317BA209E43942690CF162 /* Pods-BadRobot-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B3B9538081CCE708214F8127F35E0E1 /* Info.plist */,
+				81551F071BE151BF1C57B227D12A12FA /* Pods-BadRobot-iOS.modulemap */,
+				EE6F0CADB96224A95D3F3426DDC01F1D /* Pods-BadRobot-iOS-acknowledgements.markdown */,
+				174B5A71BAD6BC74ED85ED11BBA003CD /* Pods-BadRobot-iOS-acknowledgements.plist */,
+				0800CEDF49DBADD343D88049753E61D0 /* Pods-BadRobot-iOS-dummy.m */,
+				3582369A78AE5FB864BBF63846744BA8 /* Pods-BadRobot-iOS-frameworks.sh */,
+				E61C83A16F3F32E5B8B61A83462272C9 /* Pods-BadRobot-iOS-resources.sh */,
+				448A5C64D177F1DFDC2D7952A0858C30 /* Pods-BadRobot-iOS-umbrella.h */,
+				FEAE54FB1D2ACDB441F13B5E8DC97832 /* Pods-BadRobot-iOS.debug.xcconfig */,
+				834B826D100096F69C8CBB32CF262433 /* Pods-BadRobot-iOS.release.xcconfig */,
+			);
+			name = "Pods-BadRobot-iOS";
+			path = "Target Support Files/Pods-BadRobot-iOS";
+			sourceTree = "<group>";
+		};
+		DEA79141FBAFD4CC0E2835E8D10FB8D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104BD7A4D75D7994A8EFD342EDE1ED3C /* Wit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC416AEC6A1A818996243B6A0A321400 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CB6EB4C317BA209E43942690CF162 /* Pods-BadRobot-iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F63478160111F5B14AAAA6B77A482E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14882A5AB8201853502A31F9308A95CB /* Pods_BadRobot_iOS.framework */,
+				2B32ADE3245236FF4C2AD2E73CE190BF /* Wit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B6A6BD1070E125DA6E86B6DC3686428 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AF9AE679C96F0F98503AB7809AA7B8 /* Pods-BadRobot-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC15A976023ED6439FF46C973F78EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE489F349939DD5DB823D147903EAA2 /* RecordingSessionStarter.h in Headers */,
+				D8EBF4B520BB85438CA64830AA21DF5E /* util.h in Headers */,
+				A741CEF2976E0AD432FC27A5F47881A9 /* Wit-umbrella.h in Headers */,
+				519ABC096832011DCE63F8348AF3692F /* Wit.h in Headers */,
+				95460E743484AA83A4C6AB995280940B /* WITCircleLayer.h in Headers */,
+				DD0CA2504A4C4FA8271DAE7F322BD28A /* WITCircleView.h in Headers */,
+				DD25ED8B69172A80BB0FF94E14D34689 /* WITContextSetter.h in Headers */,
+				AFBB8CDB61CD9B5B78E2B143C026F252 /* WITCvad.h in Headers */,
+				1D4D56F07698CB7D278FF13255649F9E /* WITMicButton.h in Headers */,
+				9DAE33944530F9FBF22917D4A0F09C84 /* WitPrivate.h in Headers */,
+				11D395DE30F63D605E2E8C783C22D6F3 /* WITRecorder.h in Headers */,
+				FC4B8E9F49B6B18238EDE8FA11C48DCF /* WITRecordingSession.h in Headers */,
+				3B39D0F3DBD11B7794AB6FBE81AC19FA /* WITState.h in Headers */,
+				10B5A38E86D13800605B4DFF3E0D5F6B /* WITUploader.h in Headers */,
+				6A6E84A4EF15B732E4C748EF87DB6270 /* WITVad.h in Headers */,
+				246F623EA312B3806665AFFB99E4AA00 /* WITVadConfig.h in Headers */,
+				125E6CF5878F9021FE4745D0934CCF2F /* WITVadSimple.h in Headers */,
+				7C7D0F2A4ED1106542B3666FC73B42DD /* WITVadTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C58B5273CF6E5675A96AF63BD69EE47 /* Wit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E02E383968248520D91974EC8F5C7C /* Build configuration list for PBXNativeTarget "Wit" */;
+			buildPhases = (
+				27ACEE270DC58006C037514F8C0F6457 /* Sources */,
+				0EEC86595B2A0D739E0481FA912202F1 /* Frameworks */,
+				BAC15A976023ED6439FF46C973F78EA6 /* Headers */,
+				F7F453AB7A70C18B92AFDEFBF2C92053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wit;
+			productName = Wit;
+			productReference = 2B32ADE3245236FF4C2AD2E73CE190BF /* Wit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		294FF3928B56BB0E50172D5FF55BD97E /* Pods-BadRobot-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835C625455A2EB13666698E65C5A5E16 /* Build configuration list for PBXNativeTarget "Pods-BadRobot-iOS" */;
+			buildPhases = (
+				7F3069ABC818DF1C0F91F52866A9A32C /* Sources */,
+				21159717B9F7C4E42CE73933FFFE9E26 /* Frameworks */,
+				3B6A6BD1070E125DA6E86B6DC3686428 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF24D7FE135E13EDA371E35C08DFD0B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BadRobot-iOS";
+			productName = "Pods-BadRobot-iOS";
+			productReference = 14882A5AB8201853502A31F9308A95CB /* Pods_BadRobot_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F63478160111F5B14AAAA6B77A482E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294FF3928B56BB0E50172D5FF55BD97E /* Pods-BadRobot-iOS */,
+				0C58B5273CF6E5675A96AF63BD69EE47 /* Wit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F453AB7A70C18B92AFDEFBF2C92053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E0EAEAB85C5A17FF40E7F69BDED82A /* microphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27ACEE270DC58006C037514F8C0F6457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1310842C1CBC345FFCAF202E6E6AF4 /* util.m in Sources */,
+				9C15012B01AD341972422DBD5B163885 /* Wit-dummy.m in Sources */,
+				ABBE08907C7EDB3A63E209B8AC62BBA8 /* Wit.m in Sources */,
+				A666939C9DE72E9DAAEC27DD84C34395 /* WITCircleLayer.m in Sources */,
+				FFEACBECF60D1875FD0983F013862E5E /* WITCircleView.m in Sources */,
+				CE0BDBE1B2B8AB1465D2E21C6755FE92 /* WITContextSetter.m in Sources */,
+				11CEA47C123A3307EDF6769911D09814 /* WITCvad.m in Sources */,
+				987C8B9E38AEE477E936AE7334A0942D /* WITMicButton.m in Sources */,
+				C5CA996A15C28F50EBE45D348CBC2EA3 /* WITRecorder.m in Sources */,
+				B31A3BB3E52CD0216EB92532E7AAB703 /* WITRecordingSession.m in Sources */,
+				95822B2C7264D3BF635B88578141CC8E /* WITState.m in Sources */,
+				6A51BB701DBCBA187999AA81B9C1B55B /* WITUploader.m in Sources */,
+				E47830BBC6560D76AB9DE9C65ADB04A5 /* WITVad.m in Sources */,
+				2BA1FEF659ACB06193EED9004C960CA3 /* WITVadSimple.m in Sources */,
+				7673C1CBCF8E592F391554BC60EB2EFF /* WITVadTracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3069ABC818DF1C0F91F52866A9A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948B0508C02FD2EDD14970E61E509C15 /* Pods-BadRobot-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF24D7FE135E13EDA371E35C08DFD0B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Wit;
+			target = 0C58B5273CF6E5675A96AF63BD69EE47 /* Wit */;
+			targetProxy = C090DBC7A91D49275C8BBE4251EEF176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		269AB36E19552D49FF5CB7FDDA359C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834B826D100096F69C8CBB32CF262433 /* Pods-BadRobot-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BadRobot-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadRobot-iOS/Pods-BadRobot-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BadRobot_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48A01A848F4F63DABACD4FBF07459145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE5F60C57AAFF1E322394DABAF44549 /* Wit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Wit/Wit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wit/Wit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Wit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A6496252697338BEEB93A77C3710A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAE54FB1D2ACDB441F13B5E8DC97832 /* Pods-BadRobot-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BadRobot-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadRobot-iOS/Pods-BadRobot-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BadRobot_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E92429135797BA881A9C1A9B5ED3B269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE5F60C57AAFF1E322394DABAF44549 /* Wit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Wit/Wit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wit/Wit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Wit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835C625455A2EB13666698E65C5A5E16 /* Build configuration list for PBXNativeTarget "Pods-BadRobot-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A6496252697338BEEB93A77C3710A7 /* Debug */,
+				269AB36E19552D49FF5CB7FDDA359C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E02E383968248520D91974EC8F5C7C /* Build configuration list for PBXNativeTarget "Wit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92429135797BA881A9C1A9B5ED3B269 /* Debug */,
+				48A01A848F4F63DABACD4FBF07459145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
